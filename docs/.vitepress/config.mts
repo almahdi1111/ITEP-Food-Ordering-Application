@@ -2,12 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/ITEP-Food-Ordering-Application/',
   title: "ITEP Food Ordering Application",
   description: "A simple microservice's application that contain 3 microservices [Restaurant, Delivery and Customer]",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' }
+      { text: 'Home', link: 'https://code.sumer5020.com/ITEP-Food-Ordering-Application/' }
     ],
 
     sidebar: [],
