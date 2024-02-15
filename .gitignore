@@ -2,4 +2,4 @@
 /.vscode
 note.md
 /node_modules
-pnpm-lock.yaml
+yarn.lock
