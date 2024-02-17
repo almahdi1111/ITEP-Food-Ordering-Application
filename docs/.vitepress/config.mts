@@ -1,8 +1,10 @@
 import { defineConfig } from 'vitepress'
+const base = 'https://code.sumer5020.com/ITEP-Food-Ordering-Application/'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/ITEP-Food-Ordering-Application/',
+  lastUpdated: true,
+  base,
   title: "ITEP Food Ordering Application",
   description: "A simple microservice's application that contain 3 microservices [Restaurant, Delivery and Customer]",
   themeConfig: {
