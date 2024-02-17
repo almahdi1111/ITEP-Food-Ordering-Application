@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress'
-const base = 'https://code.sumer5020.com/ITEP-Food-Ordering-Application/'
+const base = '/ITEP-Food-Ordering-Application/'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
